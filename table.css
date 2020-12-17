@@ -1,0 +1,16 @@
+.table-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.table-content__name {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.table-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
